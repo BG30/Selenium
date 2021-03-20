@@ -8,8 +8,8 @@ from selenium.common.exceptions import NoSuchElementException
 class TestReddit(unittest.TestCase):
     def setUp(self):
         #set username and password
-        self.username = username
-        self.password = password
+        self.username = "ENTER YOUR USERNAME HERE"
+        self.password = "ENTER YOUR PASSWORD HERE"
 
         #Path to ChromeDriver
         PATH = "C:\Program Files (x86)\chromedriver.exe" #change path to local chromedriver
